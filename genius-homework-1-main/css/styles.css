@@ -1,0 +1,216 @@
+/* roboto-regular - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v50-cyrillic_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-600 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-v50-cyrillic_latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* play-regular - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v21-cyrillic_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* play-700 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v21-cyrillic_latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --color-brand-color: #2B7FFF; /* var(--beauty-landing-2-s2); */
+    --color-primary-color: #011C44; /* var(--beauty-landing-2-c1); */
+    --color-background-color: #FFFFFF;
+    --color-icons-text-color: #000000;
+    --color-secondary-dark-grey-color: #4A4A4A;
+    --color-secondary-grey-color: #747272;
+    --color-secondary-dark-blue-color: #011F4A;
+    --color-secondary-yellow-color: #FFD02B;
+    --font-family: 'Arial, sans-serif';
+}
+
+/* Base */
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+span {
+    color: var(--color-brand-color);
+}
+
+h2 {
+font-family: "Play", sans-serif;
+font-weight: 700;
+font-size: 64px;
+color: #011c44;
+}
+
+body {
+    color: var(--color-primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* В line-height завжди використовується коефіцієнт, line-height/font-size */
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+/* Main nav */
+
+.main-nav a{
+color: var(--color-primary-color);
+}
+
+.main-nav a:hover {
+    color: var(--color-brand-color);
+    font-weight: 700;
+}
+/* Hero-section */
+
+.hero-title {
+font-family: "Play", sans-serif;
+font-weight: 700;
+font-size: 140px;
+text-transform: capitalize;
+color: var(--color-brand-color);
+}
+
+.main-button { 
+padding: 16px 32px;
+color: var(--color-background-color);
+font-weight: 600;
+font-size: 18px;
+border: 2px solid var(--color-brand-color);
+background-color: var(--color-brand-color);
+border-radius: 32px;
+
+}
+
+.consult {
+color: var(--color-secondary-dark-grey-color);
+font-size: 12px;
+text-align: center;
+}
+/* About-us-section */
+.about-span {
+text-transform: capitalize;
+}
+
+.about-p {
+font-size: 22px;
+}
+
+.sub-accent-span {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--color-primary-color);
+}
+/* Why-us-section? */
+.why-us-section {
+    text-align: center;
+}
+
+.why-p {
+    text-align: center;
+    color: var(--color-icons-text-color);
+}
+/* Procedures-section */
+
+.procedures-title {
+    text-align: center;
+}
+/* Contacts-section */
+.contacs-title {
+    text-align: center;
+}
+
+/* .main-register {
+    display: inline-block;
+    border-radius: 32px;
+    width: 423px;
+    height: 481px;
+    background-color: var(--color-primary-color);
+} */
+
+.main-form-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.submain-button {
+padding: 16px 32px;
+color: var(--color-background-color);
+background-color: var(--color-brand-color);
+font-size: 18px;
+font-weight: 600;
+border: 2px solid var(--color-brand-color);
+border-radius: 32px;
+
+}
+
+.main-register p {
+    color: var(--color-secondary-grey-color);
+    text-align: center;
+    font-size: 12px;
+}
+.confident-span {
+    text-decoration: underline;
+    color: var(--color-secondary-grey-color);
+}
+
+
+
+/* Footer-section */
+.submain-nav a {
+color: var(--color-background-color);
+font-size: 16px;
+}
+address p {
+    font-size: 13px;
+    color: var(--color-secondary-grey-color);
+}
